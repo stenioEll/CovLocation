@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    /*
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    */
+    font-family: "Poppins", sans-serif;
+}
+
+.content-site{
+    background: linear-gradient(45deg, #213663, #00d4ff);
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.box{
+    background-color: #FFFAFA;
+    border-radius: 30px;
+    padding-bottom: 80px;
+}
+img.displayed1{
+    display: flex;
+    width: 200px;
+    height: 150px;
+    size: 80px;
+    margin-right: auto;
+}
+
+img.displayed2{
+    display: flex;
+    width: 85px;
+    height: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    transform:translatey(-60px)
+}
+
+.btn-primary{
+    border: none;
+    background-color: #FF8C0A;
+}
+
+.input {
+    border: none;
+}
+
+#quemSomos {
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 10%;
+    box-sizing: border-box;
+    
+}
+
+.img2 {
+    margin-left: 0%;
+    width: 100%;
+    max-width: 200px;
+    clip-path: circle();
+}
+
+/*********************mapas**************************/
+
+#sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 240px;
+    width: 240px;
+    background: red;
+    padding: 6px 14px;
+}
